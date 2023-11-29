@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 1rem; */
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  color: aliceblue;
+}
+
+.header > p {
+  margin: 1rem;
+  padding: 1rem;
+  width: 200px;
+  flex-basis: 300px;
+  min-width: 200px;
+  flex-grow: 1;
+  /* flex: 1; */
+}
+
+.home {
+  background-color: #96efff;
+}
+
+.about {
+  background-color: #7b66ff;
+}
+
+.contact {
+  background-color: #2d9596;
+}
+
+.school {
+  background-color: #5fbdff;
+}
+
+@media (max-width: 910px) {
+  .header {
+    flex-direction: column;
+  }
+  .header > p {
+    flex-basis: 150px;
+  }
+}
