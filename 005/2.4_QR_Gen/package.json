@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "A program that generates qr code of an url from user input.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Boychev",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.20",
+    "qr-image": "^3.2.0"
+  }
+}
